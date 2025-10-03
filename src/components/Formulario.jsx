@@ -88,8 +88,8 @@ const Formulario = ({ agregarAlumno, alumnoEditando, cancelarEdicion }) => {
                             <input 
                                 type="number" 
                                 className="form-control" 
-                                name="documento"
-                                value={formData.documento}
+                                name="no_ine"
+                                value={formData.no_ine}
                                 onChange={handleChange}
                                 required
                             />
